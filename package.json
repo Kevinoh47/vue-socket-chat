@@ -4,7 +4,8 @@
   "description": "single page web app using node, vue-socket.io",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -i myapp/ server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/Kevinoh47/vue-socket-chat#readme",
   "dependencies": {
-    "server": "^1.0.18"
+    "nodemon": "^1.18.10",
+    "server": "^1.0.18",
+    "vue-material": "^1.0.0-beta-7",
+    "vue-socket.io": "^3.0.7"
   }
 }
